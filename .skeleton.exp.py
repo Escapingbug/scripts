@@ -10,7 +10,7 @@ import os
 import os.path
 from pwn import *
 context(os='linux', arch='amd64', log_level='debug')
-context.terminal = ['lxterminal', '-e']
+context.terminal = ['python', 'notiter.py', '-p', '15111', '-t', 'OSXTerminal', '-e']
 
 # synonyms for faster typing
 tube.s = tube.send
