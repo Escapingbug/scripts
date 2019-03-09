@@ -56,7 +56,7 @@ gdb.attach = gdb_attach
 
 def main():
     # Your exploit script goes here
-    pass
+    p.irt()
 
 if __name__ == '__main__':
     main()
